@@ -1,0 +1,1265 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=Section1>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html lang=&quot;en&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>    &lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;meta name=&quot;viewport&quot;</p>
+
+<p class=MsoNormal>          content=&quot;width=device-width,
+initial-scale=1.0&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;title&gt;Pet Sphere Shop&lt;/title&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;style&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           PAGE</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        body {</p>
+
+<p class=MsoNormal>            margin: 0;</p>
+
+<p class=MsoNormal>            padding: 30px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            background: white;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            color: white;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           MAIN COINTAINER</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>         .page {</p>
+
+<p class=MsoNormal>            width: 800px; </p>
+
+<p class=MsoNormal>            max-width: 95%;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            margin: auto;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           PRACTICUM HEADING</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .practicum-heading {</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            align-items: center;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            gap: 25px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            margin-bottom: 15px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-size: 18px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .roman {</p>
+
+<p class=MsoNormal>            font-size: 16px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           SHOP HEADER</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .shop-header {</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            padding: 12px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border-top: 1px solid ;</p>
+
+<p class=MsoNormal>            border-bottom: 1px solid ;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .shop-name {</p>
+
+<p class=MsoNormal>            color: black;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-size: 25px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .tagline {</p>
+
+<p class=MsoNormal>            margin-top: 5px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            color: black;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-size: 14px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           INFO BAR</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>         .info bar{</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            justify-content: center;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            padding: 8px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border-bottom: 1px solid;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-size: 13px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>     </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           MAIN PET IMAGE</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .main-image {</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            height: 260px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            object-fit: cover;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            display: block;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            margin-top: 5px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           CONTENT GRID</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .grid {</p>
+
+<p class=MsoNormal>            display: grid;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            grid-template-columns: 1fr 1fr;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            gap: 4px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            margin-top: 5px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           CONTENT BOX</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .box {</p>
+
+<p class=MsoNormal>            border: 1px solid #ddd;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            background: white;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            min-height: 230px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            overflow: hidden;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            position: relative;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .box-title {</p>
+
+<p class=MsoNormal>            margin: 0;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            padding: 7px 10px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            background: white;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            color: white;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-size: 16px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border-bottom: 1px solid #ddd;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .box-content {</p>
+
+<p class=MsoNormal>            padding: 10px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           YOUTUBE</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-container {</p>
+
+<p class=MsoNormal>            position: relative;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            padding-bottom: 56.25%;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            height: 0;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            overflow: hidden;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-container iframe {</p>
+
+<p class=MsoNormal>            position: absolute;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            top: 0;</p>
+
+<p class=MsoNormal>            left: 0;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>            height: 100%;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border: 0;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           GOOGLE MAP</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .map-container {</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            height: 230px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .map-container iframe {</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>            height: 100%;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border: 0;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           PET FORM</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .pet-form {</p>
+
+<p class=MsoNormal>            padding: 8px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .form-row {</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            align-items: center;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            margin-bottom: 7px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .form-row label {</p>
+
+<p class=MsoNormal>            width: 110px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-size: 14px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .form-row input,</p>
+
+<p class=MsoNormal>        .form-row select {</p>
+
+<p class=MsoNormal>            flex: 1;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            height: 25px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border: 1px solid #aaa;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            padding-left: 6px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-family: &quot;Times New Roman&quot;, serif;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .form-row textarea {</p>
+
+<p class=MsoNormal>            flex: 1;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            height: 55px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            resize: none;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border: 1px solid #aaa;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            padding: 5px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            font-family: &quot;Times New Roman&quot;, serif;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .submit-button {</p>
+
+<p class=MsoNormal>            margin-left: 110px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            padding: 5px 15px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            border: 1px solid #999;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            background: #e7f2ff;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            cursor: pointer;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .submit-button:hover {</p>
+
+<p class=MsoNormal>            background: white;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           PDF</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;p&gt;Pet Sphere&lt;/p&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;embed src=&quot;pet.pdf&quot; width=&quot;100%&quot;
+height=&quot;600px&quot; type=&quot;application/pdf&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           AUDIO</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .audio-content {</p>
+
+<p class=MsoNormal>            padding: 25px 15px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .audio-icon {</p>
+
+<p class=MsoNormal>            font-size: 55px;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            margin-bottom: 15px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        audio {</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        /* =========================</p>
+
+<p class=MsoNormal>           RESPONSIVE</p>
+
+<p class=MsoNormal>        ========================= */</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        @media (max-width: 700px) {</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            body {</p>
+
+<p class=MsoNormal>                padding: 15px;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            .grid {</p>
+
+<p class=MsoNormal>                grid-template-columns: 1fr;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            .main-image {</p>
+
+<p class=MsoNormal>                height: 220px;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            .practicum-heading {</p>
+
+<p class=MsoNormal>                font-size: 15px;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;/style&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;body&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;page&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- ==================================</p>
+
+<p class=MsoNormal>         PRACTICUM TITLE</p>
+
+<p class=MsoNormal>    =================================== --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;practicum-heading&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;span class=&quot;roman&quot;&gt;</p>
+
+<p class=MsoNormal>            VII</p>
+
+<p class=MsoNormal>        &lt;/span&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;span&gt;</p>
+
+<p class=MsoNormal>            Practicum Set-up / Circuit Diagram /</p>
+
+<p class=MsoNormal>            Algorithm / Flowchart / Design</p>
+
+<p class=MsoNormal>        &lt;/span&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- ==================================</p>
+
+<p class=MsoNormal>         PET SPHERE HEADER</p>
+
+<p class=MsoNormal>    =================================== --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;shop-header&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;shop-name&quot;&gt;</p>
+
+<p class=MsoNormal>            Pet Sphere</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;tagline&quot;&gt;</p>
+
+<p class=MsoNormal>            Everything Your Pet Needs  Love  Care 
+Happiness</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- ==================================</p>
+
+<p class=MsoNormal>         INFORMATION BAR</p>
+
+<p class=MsoNormal>    =================================== --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;info-bar&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;span&gt;</p>
+
+<p class=MsoNormal>             Pet Shop</p>
+
+<p class=MsoNormal>        &lt;/span&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;span&gt;</p>
+
+<p class=MsoNormal>            Online &amp;amp; Offline</p>
+
+<p class=MsoNormal>        &lt;/span&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;span&gt;</p>
+
+<p class=MsoNormal>            Chennai</p>
+
+<p class=MsoNormal>        &lt;/span&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;span&gt;</p>
+
+<p class=MsoNormal>            0000000000</p>
+
+<p class=MsoNormal>        &lt;/span&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- ==================================</p>
+
+<p class=MsoNormal>         MAIN PET IMAGE</p>
+
+<p class=MsoNormal>    =================================== --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;img</p>
+
+<p class=MsoNormal>        class=&quot;main-image&quot;</p>
+
+<p class=MsoNormal>       
+src=&quot;https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&amp;fit=crop&amp;w=1200&amp;q=80&quot;</p>
+
+<p class=MsoNormal>        alt=&quot;Happy pets at Pet Sphere&quot;</p>
+
+<p class=MsoNormal>    &gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- ==================================</p>
+
+<p class=MsoNormal>         CONTENT GRID</p>
+
+<p class=MsoNormal>    ================================== --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;grid&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;!-- ==================================</p>
+
+<p class=MsoNormal>             YOUTUBE VIDEO</p>
+
+<p class=MsoNormal>        ================================== --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;box&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;box-title&quot;&gt;</p>
+
+<p class=MsoNormal>                Pet Care Video</p>
+
+<p class=MsoNormal>            &lt;/h2&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;video-container&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                &lt;iframe</p>
+
+<p class=MsoNormal>                    src=&quot;https://www.youtube-nocookie.com/embed/jT05tiJvdLA&quot;</p>
+
+<p class=MsoNormal>                    title=&quot;Pet Grooming Video&quot;</p>
+
+<p class=MsoNormal>                    allow=&quot;accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;</p>
+
+<p class=MsoNormal>                    allowfullscreen&gt;</p>
+
+<p class=MsoNormal>                &lt;/iframe&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;!-- ==================================</p>
+
+<p class=MsoNormal>             GOOGLE MAP</p>
+
+<p class=MsoNormal>        ================================== --&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;box&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;box-title&quot;&gt;</p>
+
+<p class=MsoNormal>                 Find Pet Sphere</p>
+
+<p class=MsoNormal>            &lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;map-container&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;iframe</p>
+
+<p class=MsoNormal>                   
+src=&quot;https://www.google.com/maps?q=Chennai%20Tamil%20Nadu&amp;output=embed&quot;</p>
+
+<p class=MsoNormal>                    loading=&quot;lazy&quot;</p>
+
+<p class=MsoNormal>                    allowfullscreen&gt;</p>
+
+<p class=MsoNormal>                &lt;/iframe&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;!-- ==================================</p>
+
+<p class=MsoNormal>             PET REGISTRATION / ORDER FORM</p>
+
+<p class=MsoNormal>        ================================== --&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;box&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;box-title&quot;&gt;</p>
+
+<p class=MsoNormal>                 Pet Registration Form</p>
+
+<p class=MsoNormal>            &lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;pet-form&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;form&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;form-row&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;label for=&quot;name&quot;&gt;</p>
+
+<p class=MsoNormal>                            Name:</p>
+
+<p class=MsoNormal>                        &lt;/label&gt;</p>
+
+<p class=MsoNormal>                        &lt;input</p>
+
+<p class=MsoNormal>                            type=&quot;text&quot;</p>
+
+<p class=MsoNormal>                            id=&quot;name&quot;</p>
+
+<p class=MsoNormal>                            placeholder=&quot;Your
+name&quot;</p>
+
+<p class=MsoNormal>                            required</p>
+
+<p class=MsoNormal>                        &gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;form-row&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;label
+for=&quot;petname&quot;&gt;</p>
+
+<p class=MsoNormal>                            Pet Name:</p>
+
+<p class=MsoNormal>                        &lt;/label&gt;</p>
+
+<p class=MsoNormal>                        &lt;input</p>
+
+<p class=MsoNormal>                            type=&quot;text&quot;</p>
+
+<p class=MsoNormal>                            id=&quot;petname&quot;</p>
+
+<p class=MsoNormal>                            placeholder=&quot;Pet's
+name&quot;</p>
+
+<p class=MsoNormal>                            required</p>
+
+<p class=MsoNormal>                        &gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;form-row&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;label
+for=&quot;pettype&quot;&gt;</p>
+
+<p class=MsoNormal>                            Pet Type:</p>
+
+<p class=MsoNormal>                        &lt;/label&gt;</p>
+
+<p class=MsoNormal>                        &lt;select
+id=&quot;pettype&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;option&gt;Dog&lt;/option&gt;</p>
+
+<p class=MsoNormal>                            &lt;option&gt;Cat&lt;/option&gt;</p>
+
+<p class=MsoNormal>                            &lt;option&gt;Bird&lt;/option&gt;</p>
+
+<p class=MsoNormal>                           
+&lt;option&gt;Rabbit&lt;/option&gt;</p>
+
+<p class=MsoNormal>                           
+&lt;option&gt;Other&lt;/option&gt;</p>
+
+<p class=MsoNormal>                        &lt;/select&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;form-row&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;label for=&quot;phone&quot;&gt;</p>
+
+<p class=MsoNormal>                            Phone:</p>
+
+<p class=MsoNormal>                        &lt;/label&gt;</p>
+
+<p class=MsoNormal>                        &lt;input</p>
+
+<p class=MsoNormal>                            type=&quot;tel&quot;</p>
+
+<p class=MsoNormal>                            id=&quot;phone&quot;</p>
+
+<p class=MsoNormal>                            placeholder=&quot;000000000&quot;</p>
+
+<p class=MsoNormal>                        &gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;form-row&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;label
+for=&quot;message&quot;&gt;</p>
+
+<p class=MsoNormal>                            Requirements:</p>
+
+<p class=MsoNormal>                        &lt;/label&gt;</p>
+
+<p class=MsoNormal>                        &lt;textarea</p>
+
+<p class=MsoNormal>                            id=&quot;message&quot;</p>
+
+<p class=MsoNormal>                            placeholder=&quot;Enter your pet
+requirements&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;/textarea&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;button</p>
+
+<p class=MsoNormal>                        type=&quot;submit&quot;</p>
+
+<p class=MsoNormal>                        class=&quot;submit-button&quot;&gt;</p>
+
+<p class=MsoNormal>                        Submit</p>
+
+<p class=MsoNormal>                    &lt;/button&gt;</p>
+
+<p class=MsoNormal>                &lt;/form&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;!-- ==================================</p>
+
+<p class=MsoNormal>             PDF BROCHURE</p>
+
+<p class=MsoNormal>        ================================== --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>     </p>
+
+<p class=MsoNormal>    &lt;h1&gt;Pet Sphere&lt;/h1&gt;</p>
+
+<p class=MsoNormal>    &lt;embed src=&quot;pet.pdf&quot; width=&quot;100%&quot;
+height=&quot;600px&quot; type=&quot;application/pdf&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;!-- ==================================</p>
+
+<p class=MsoNormal>             AUDIO</p>
+
+<p class=MsoNormal>        ================================== --&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;box&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;box-title&quot;&gt;</p>
+
+<p class=MsoNormal>                &#128266; Pet Sphere Audio</p>
+
+<p class=MsoNormal>            &lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;audio.mp3&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;audio.mp3&quot;&gt;</p>
+
+<p class=MsoNormal>                    &#128062;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;h3&gt;</p>
+
+<p class=MsoNormal>                    Welcome to Pet Sphere</p>
+
+<p class=MsoNormal>               &lt;/h3&gt;</p>
+
+<p class=MsoNormal>                &lt;p&gt;</p>
+
+<p class=MsoNormal>                    our pet sphere.</p>
+
+<p class=MsoNormal>                &lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;!--</p>
+
+<p class=MsoNormal>                    Put your audio file in the same folder</p>
+
+<p class=MsoNormal>                    and name it pet-sphere.mp3</p>
+
+<p class=MsoNormal>                --&gt;</p>
+
+<p class=MsoNormal>                &lt;audio controls&gt;</p>
+
+<p class=MsoNormal>                    &lt;source</p>
+
+<p class=MsoNormal>                        src=&quot;audio.mp3&quot;</p>
+
+<p class=MsoNormal>                        type=&quot;audio/mpeg&quot;&gt;</p>
+
+<p class=MsoNormal>                    Your browser does not support</p>
+
+<p class=MsoNormal>                    the audio element.</p>
+
+<p class=MsoNormal>                &lt;/audio&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+<p class=MsoNormal><img width=624 height=273 id="Picture 1"
+src="p2%20html_files/image001.jpg"><img width=624 height=290 id="Picture 4"
+src="p2%20html_files/image002.jpg"><img width=624 height=281 id="Picture 7"
+src="p2%20html_files/image003.jpg"></p>
+
+</div>
+
+</body>
+
+</html>
